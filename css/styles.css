@@ -3,27 +3,29 @@
 /*Navbar Section Begins*/
 
 .navbar-inverse {
-  background-color: transparent;
+  background-color: white;
   border: none;
-  font-family: Della Respira;
+  font-family: arial;
   font-size: 16px;
+  padding-right: 20px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #fff;
+  color: black;
   text-shadow: .5px, .5px, .5px #333;
+  padding-top: 50px;
   }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
   background-color: #00D890;
-  color: black;
+  color: yellow;
 }
+
 /*Hero Section Begins*/
 
-#ocean {
-  background-image: url('../img/ocean.jpg');
+.jumbotron {
+  background-image: url('../img/working.jpg');
   background-size: cover;
   background-position: center;
-  height: 1300px;
-
+  height: 500px;
 }
