@@ -1,18 +1,35 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Suravaram');
+/*Universals*/
+
+.navbar-inverse .navbar-nav>li>a, .jumbo-text, h1, h3 {
+  text-shadow: .5px, .5px, .5px #333;
+}
+
+h1, h3 {
+  padding-bottom: 25px;
+
+}
+
+/*media query*/
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: yellow;
+    }
+}
 /*Navbar Section Begins*/
 
 .navbar-inverse {
   background-color: white;
-  border: none;
-  font-family: arial;
-  font-size: 16px;
+  font-family: 'della respira', serif;
+  font-size: 20px;
   padding-right: 20px;
+  border: none;
+
 }
 
 .navbar-inverse .navbar-nav>li>a {
   color: black;
-  text-shadow: .5px, .5px, .5px #333;
   padding-top: 50px;
   }
 
@@ -24,8 +41,47 @@
 /*Hero Section Begins*/
 
 .jumbotron {
-  background-image: url('../img/working.jpg');
+  background-image: url('../img/time2go.jpg');
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 450px;
+
 }
+
+.jumbo-text {
+  font-family: serif;
+  color: silver;
+  font-weight: 400;
+  font-weight: bold;
+
+}
+
+/*Hero Section Ends*/
+
+
+h3 {
+  font-size: 42px;
+  font-family: 'Suravaram', serif;
+  color: red;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: 'Della Respira', serif;
+  color: black;
+
+}
+
+/*footer styles*/
+
+footer {
+  height: 150px;
+  background-color: #333;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.tag {
+   color: silver;
+ }
