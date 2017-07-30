@@ -4,7 +4,6 @@
 
 .navbar-inverse {
   background-color: white;
-  border: none;
   font-family: arial;
   font-size: 16px;
   padding-right: 20px;
@@ -24,8 +23,33 @@
 /*Hero Section Begins*/
 
 .jumbotron {
-  background-image: url('../img/working.jpg');
+  background-image: url('../img/time1.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
+}
+
+.jumbo-text {
+  color: #fff;
+  font-weight: 400;
+}
+
+/*Hero Section Ends*/
+
+
+
+
+
+
+/*footer styles*/
+
+footer {
+  height: 90px;
+  background-color: #333;
+  padding-top: 15px;
+  text-align: center;
+}
+
+dis-block {
+  display: block;
 }
