@@ -1,0 +1,46 @@
+.portfolio {
+  text-align: center;
+}
+
+
+/*Carousel Styles*/
+.item {
+  height: 425px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-flex {
+  height: 425px; /*or 100 % */
+  display: flex;
+  align-items: center;
+}
+
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#carousel-logo {
+  height: 250px;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+#pet-store {
+  background-image: url('../img/hero.jpg');
+}
+
+#ABC {
+  background-image: url('../img/yosemite122.jpg');
+}
+
+.carousel-caption {
+  margin-bottom: 45px;
+}
+
+b

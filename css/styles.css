@@ -19,14 +19,18 @@ h1, h3 {
 }
 /*Navbar Section Begins*/
 
+.navbar-brand {
+  height: 60px;
+
+}
 .navbar-inverse {
   background-color: white;
   font-family: 'della respira', serif;
   font-size: 20px;
-  padding-right: 20px;
   border: none;
-
 }
+
+
 
 .navbar-inverse .navbar-nav>li>a {
   color: black;
@@ -61,7 +65,7 @@ h1, h3 {
 h3 {
   font-size: 42px;
   font-family: 'Suravaram', serif;
-  color: red;
+  color: #720000;
   font-weight: bold;
 }
 
