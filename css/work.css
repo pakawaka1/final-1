@@ -1,3 +1,5 @@
+
+
 .portfolio {
   text-align: center;
 }
@@ -24,10 +26,13 @@
   height: 250px;
 }
 
-h4 {
-  color: #FFFFFF;
+h4, h5 {
+  color: #fff;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: 'Suravaram', serif;
+}
+
+h4 {
   font-size: 50px;
 }
 
@@ -43,4 +48,19 @@ h4 {
   margin-bottom: 45px;
 }
 
-b
+#table {
+  background-color: #0CB59E;
+  padding-top: 65px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 65px
+}
+
+#label {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h5 {
+  font-size: 28px;
+}
