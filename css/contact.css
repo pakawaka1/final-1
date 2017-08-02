@@ -1,0 +1,19 @@
+.contact {
+  background-color: #00CEBE;
+  padding: 15px;
+}
+
+.backing {
+  background-color: gray;
+}
+.address {
+  margin-left: 25px;
+
+}
+
+.sitemap {
+  margin-top: 10px;
+  height: 450px;
+  width: 350px;
+  padding: 10px;
+}
