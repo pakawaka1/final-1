@@ -19,8 +19,12 @@ h1, h3 {
 }
 /*Navbar Section Begins*/
 
+.navbar-toggle {
+  background-color: red;
+
+}
 .navbar-brand {
-  height: 60px;
+  height: 50px;
 
 }
 .navbar-inverse {
