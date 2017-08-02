@@ -71,11 +71,12 @@ h3 {
   font-weight: bold;
 }
 
-h1, h2 {
+p {
   font-size: 16px;
   font-family: 'Della Respira', serif;
   color: black;
-
+  margin-bottom: 35px;
+  margin-top:15px;
 }
 
 /*footer styles*/
