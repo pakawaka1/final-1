@@ -1,6 +1,62 @@
-#hero {
+.hero {
   background-image: url('../img/working4.jpg');
   background-size: cover;
   background-position: center;
   height: 450px;
-  
+}
+
+.about {
+  text-align: center;
+}
+
+.interests {
+  background-color: #3D3642;
+  padding: 30px;
+}
+
+.background {
+  color: silver;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.travel {
+  background-image: url('../img/chalo.jpg');
+  background-size: auto;
+  border-color: #fff;
+  border-style: double;
+  padding: 20px;
+  background position: right;
+  height: 300px;
+  width: 700px;
+  margin: 10px;
+}
+
+.photo {
+  margin: 20px;
+}
+
+div.gallery {
+  margin: 20px;
+  border: 5px double #ccc;
+  float: center;
+  width: 250px;
+  padding: 20px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
