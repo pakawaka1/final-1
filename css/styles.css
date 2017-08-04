@@ -13,9 +13,8 @@ h1, h3 {
 
 /*media query*/
 @media only screen and (max-width: 500px) {
-    body {
-      background-color: yellow;
-    }
+  h1, h3{background-color: gold;}
+  body {background-color: #4395D1;}
 }
 /*Navbar Section Begins*/
 
