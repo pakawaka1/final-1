@@ -1,3 +1,8 @@
+.hr {
+  font-size: 2px;
+  color: black;
+}
+
 .portfolio {
   text-align: center;
 }
@@ -43,7 +48,7 @@ h4 {
 }
 
 #pet-date {
-  background image: url('../img/petwalk2.jpg');
+  background-image: url('../img/petwalk2.jpg');
 }
 .carousel-caption {
   margin-bottom: 45px;
