@@ -1,3 +1,12 @@
+.hr {
+  font-size: 2px;
+  color: black;
+}
+
+.contact {
+  text-align: center;
+}
+
 .wallpaper {
   background-color: #00CEBE;
   padding: 15px;

@@ -1,3 +1,8 @@
+.hr {
+  font-size: 2px;
+  color: black;
+}
+
 .portfolio {
   text-align: center;
 }
@@ -42,6 +47,9 @@ h4 {
   background-image: url('../img/yosemite122.jpg');
 }
 
+#pet-date {
+  background-image: url('../img/petwalk2.jpg');
+}
 .carousel-caption {
   margin-bottom: 45px;
 }

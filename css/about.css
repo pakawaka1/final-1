@@ -1,3 +1,8 @@
+.hr {
+  font-size: 2px;
+  color: black;
+}
+
 .hero {
   background-image: url('../img/working4.jpg');
   background-size: cover;
