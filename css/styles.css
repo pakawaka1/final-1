@@ -45,7 +45,7 @@ h1, h3 {
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
   /*background-color: #00D890;*/
-  color: #080606;
+  color: black;
   text-decoration: underline;
 }
 
