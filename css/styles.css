@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Suravaram');
 /*Universals*/
 
-.navbar-inverse .navbar-nav>li>a, .jumbo-text, h1, h3 {
+.navbar-inverse .navbar-nav>li>a, .jumbo-text, h1, h3, h6, {
   text-shadow: .5px, .5px, .5px #333;
 }
 
 h1, h3 {
-  padding-bottom: 25px;
+  padding-top: 0px;
+  /*padding-bottom: 25px;*/
+  margin: 0px;
+  padding-bottom: 15px;
 
 }
 
@@ -21,26 +24,37 @@ h1, h3 {
 
 /*Navbar Section Begins*/
 
+h6 {
+  background-color: white;
+  font-family: 'della respira', serif;
+  font-size: 20px;
+  border: none;
+  color: #585858;
+  padding: 0px;
+
+}
+
 .navbar-toggle {
-  background-color: red;
+  background-color: #585858;
 
 }
 .navbar-brand {
-  height: 50px;
-
+  margin:-10px;
 }
 .navbar-inverse {
   background-color: white;
   font-family: 'della respira', serif;
   font-size: 20px;
   border: none;
+  margin-top: 15px;
+  margin-bottom: -15px;
 }
 
 
 
 .navbar-inverse .navbar-nav>li>a {
   color:#585858;
-  padding-top: 50px;
+
   }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
@@ -89,7 +103,7 @@ p {
 /*footer styles*/
 
 footer {
-  height: 150px;
+  height: 100px;
   background-color: #333;
   padding-top: 15px;
   text-align: center;
