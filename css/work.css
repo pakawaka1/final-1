@@ -38,6 +38,9 @@ h4, h5 {
 h4 {
   font-size: 50px;
 }
+h5 {
+  font-size: 32px;
+}
 
 #pet-store {
   background-image: url('../img/hero.jpg');
@@ -50,6 +53,11 @@ h4 {
 #pet-date {
   background-image: url('../img/petwalk2.jpg');
 }
+
+#iris {
+  background-image: url('../img/create_account.png');
+}
+
 .carousel-caption {
   margin-bottom: 45px;
 }
@@ -67,6 +75,7 @@ h4 {
   padding-bottom: 15px;
 }
 
-h5 {
-  font-size: 28px;
-}
+#heading {
+  padding-top: 2px;
+  padding-bottom: 20px;
+  }
