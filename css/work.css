@@ -50,12 +50,12 @@ h5 {
   background-image: url('../img/yosemite122.jpg');
 }
 
-#VIC {
-  background-image: url('../img/vic.jpg');
-}
-
 #law {
   background-image: url('../img/law.jpg');
+}
+
+#VIC {
+  background-image: url('../img/vic.jpg');
 }
 
 #pet-date {
@@ -64,6 +64,10 @@ h5 {
 
 #iris {
   background-image: url('../img/create_account.png');
+}
+
+#TNR {
+  background-image: url('../img/tnr.png');
 }
 
 .carousel-caption {
