@@ -2,16 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Della+Respira|Suravaram');
 /*Universals*/
 
-.navbar-inverse .navbar-nav>li>a, .jumbo-text, h1, h3, h6, {
-  text-shadow: .5px, .5px, .5px #333;
+.navbar-inverse .navbar-nav > li > a,
+.jumbo-text,
+h1,
+h3,
+h6 {
+  text-shadow: 0.5px, 0.5px, 0.5px #333;
 }
 
-h1, h3 {
+h1,
+h3 {
   padding-top: 0px;
   /*padding-bottom: 25px;*/
   margin: 0px;
   padding-bottom: 15px;
-
 }
 
 /*media query
@@ -20,7 +24,6 @@ h1, h3 {
   body {background-color: #4395D1;}
 }
 */
-
 
 /*Navbar Section Begins*/
 
@@ -31,15 +34,13 @@ h6 {
   border: none;
   color: #585858;
   padding: 0px;
-
 }
 
 .navbar-toggle {
   background-color: #585858;
-
 }
 .navbar-brand {
-  margin:-10px;
+  margin: -10px;
 }
 .navbar-inverse {
   background-color: white;
@@ -50,14 +51,12 @@ h6 {
   margin-bottom: -15px;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+  color: #585858;
+}
 
-
-.navbar-inverse .navbar-nav>li>a {
-  color:#585858;
-
-  }
-
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
   /*background-color: #00D890;*/
   color: black;
   text-decoration: underline;
@@ -74,16 +73,13 @@ h6 {
 
 .jumbo-text {
   font-family: serif;
-  color: #D3C6C6;
+  color: #d3c6c6;
   font-weight: 400;
   font-size: 30px;
   font-style: bold;
-
-
 }
 
 /*Hero Section Ends*/
-
 
 h3 {
   font-size: 42px;
@@ -97,7 +93,7 @@ p {
   font-family: 'Della Respira', serif;
   color: #585858;
   margin-bottom: 35px;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 /*footer styles*/
@@ -110,5 +106,5 @@ footer {
 }
 
 .tag {
-   color: silver;
- }
+  color: silver;
+}

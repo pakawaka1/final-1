@@ -42,6 +42,10 @@ h5 {
   font-size: 32px;
 }
 
+#devCamp {
+  background-image: url('../img/')
+}
+
 #pet-store {
   background-image: url('../img/hero.jpg');
 }
