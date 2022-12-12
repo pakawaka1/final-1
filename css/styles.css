@@ -65,7 +65,7 @@ h6 {
 /*Hero Section Begins*/
 
 .jumbotron {
-  background-image: url('../img/time2go.jpg');
+  background-image: url('/img/time2go.jpg');
   background-size: cover;
   background-position: center;
   height: 450px;
